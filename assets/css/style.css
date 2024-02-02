@@ -829,6 +829,15 @@ main {
   line-height: 1.6;
 }
 
+.company-logo {
+  display: inline-block;
+  margin-right: 10px; /* Adjust spacing between logo and job details */
+}
+
+.company-logo-img {
+  width: 30px; /* Adjust the width as needed */
+  height: auto;
+}
 
 /**
  * skills 
