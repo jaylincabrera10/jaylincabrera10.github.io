@@ -1520,14 +1520,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .company-logo-img {
-    max-width: 30px; /* Adjust the width as needded */
+    max-width: 50px; /* Adjust the width as needded */
     height: auto;
 }
 
 /* Media query for smaller screens */
-@media (min-width: 200px) {
+@media (min-width: 50px) {
   .company-logo-img {
-      max-width: 200; /* Remove the max-width for desktop */
+      max-width: 50; /* Remove the max-width for desktop */
   }
 }
 
