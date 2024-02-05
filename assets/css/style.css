@@ -71,7 +71,6 @@
   --bittersweet-shimmer: hsl(0, 43%, 51%);
   --blue: hsl(240, 100%, 50%);
   --green: hsl(120, 100%, 50%);
-  --red: hsla(0, 100%, 50%, 1);
 
 
   /**
@@ -807,7 +806,7 @@ main {
 }
 
 .timeline-list span {
-  color: var(--red);
+  color: var(--light-gray-70);
   /* check*/
   
   font-weight: var(--fw-400);
@@ -1518,17 +1517,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   .company-logo {
     display: inline-block;
     margin-right: 10px; /* Adjust spacing between logo and job details */
+    overflow: hidden;
+    border-radius: 12px;
+    transition: var(--transition-1);
 }
 
 .company-logo-img {
     width: 100%; /* Adjust the width as needed */
     height: auto;
-}
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  .company-logo-img {
-      max-width: 60px; /* Adjust the width as needed for smaller screens */
-  }
+    object-fit: cover;
 }
 
 
