@@ -1520,18 +1520,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .company-logo-img {
-    width: 40px; /* Adjust the width as needed */
+    width: 30px; /* Adjust the width as needed */
     height: auto;
 }
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    .company-logo-img {
-        width: 30px; /* Adjust the width as needed for smaller screens */
-    }
-}
-
-/* trying mobile*/
 
 
 
