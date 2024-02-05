@@ -1525,7 +1525,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 /* Media query for smaller screens */
-@media (min-width: 450px) {
+@media (min-width: 200px) {
   .company-logo-img {
       max-width: none; /* Remove the max-width for desktop */
   }
