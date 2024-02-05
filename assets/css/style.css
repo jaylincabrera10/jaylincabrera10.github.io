@@ -71,6 +71,8 @@
   --bittersweet-shimmer: hsl(0, 43%, 51%);
   --blue: hsl(240, 100%, 50%);
   --green: hsl(120, 100%, 50%);
+  --red: hsla(0, 100%, 50%, 1);
+
 
   /**
    * typography
@@ -805,7 +807,7 @@ main {
 }
 
 .timeline-list span {
-  color: var(--blue);
+  color: var(--red);
   /* check*/
   
   font-weight: var(--fw-400);
