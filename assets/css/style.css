@@ -149,7 +149,7 @@ input, textarea {
 
 ::selection {
   background: var(blue);
-  color: var(--smoky-black);
+  color: var( --light-gray);
 }
 
 :focus { outline-color: var(blue); }
@@ -202,7 +202,7 @@ article {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--eerie-black-1);
+  background: var(blue);
   border-radius: inherit;
   z-index: -1;
 }
