@@ -69,6 +69,7 @@
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --blue: hsl(240, 100%, 50%);
 
   /**
    * typography
@@ -148,8 +149,8 @@ input, textarea {
 }
 
 ::selection {
-  background: var(blue);
-  color: var(blue);
+  background: var();
+  color: var(--smoky-black);
 }
 
 :focus { outline-color: var(--orange-yellow-crayola); }
@@ -204,7 +205,7 @@ article {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(blue);
+  background: var(--blue);
   border-radius: inherit;
   z-index: -1;
 }
@@ -273,7 +274,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(blue);
+  background: var(--blue);
   border-radius: 5px;
 }
 
@@ -367,7 +368,7 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(blue);
+  color: var(--blue);
   background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
@@ -492,7 +493,7 @@ main {
 .navbar-link:hover,
 .navbar-link:focus { color: var(--light-gray-70); }
 
-.navbar-link.active { color: var(blue); }
+.navbar-link.active { color: var(--blue); }
 
 
 
@@ -987,7 +988,7 @@ main {
   --scale: 0.8;
 
   background: var(--jet);
-  color: var(blue);
+  color: var(--blue);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1171,7 +1172,7 @@ main {
 
 .form-input::placeholder { font-weight: var(--fw-500); }
 
-.form-input:focus { border-color: var(blue); }
+.form-input:focus { border-color: var(--blue); }
 
 textarea.form-input {
   min-height: 100px;
@@ -1189,7 +1190,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   position: relative;
   width: 100%;
   background: var(--border-gradient-onyx);
-  color: var(blue);
+  color: var(--blue);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1637,7 +1638,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .filter-item button:hover { color: var(--light-gray-70); }
 
-  .filter-item button.active { color: var(blue); }
+  .filter-item button.active { color: var(--blue); }
 
   /* portfolio and blog grid */
 
