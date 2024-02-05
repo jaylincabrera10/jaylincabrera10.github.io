@@ -1520,7 +1520,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .company-logo-img {
-    width: 10%; /* Adjust the width as needed */
+    width: 10%; /* Adjust the width as needded */
     height: auto;
     max-width: 10%;
     object-fit: contain;
