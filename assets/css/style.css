@@ -1522,6 +1522,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 .company-logo-img {
     width: 10px; /* Adjust the width as needed */
     height: auto;
+    object-fit: contain;
 }
 
 
