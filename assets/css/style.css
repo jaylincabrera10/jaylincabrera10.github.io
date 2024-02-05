@@ -150,7 +150,7 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--bittersweet-shimmer);
+  background: var(--white-2);
   color: var(--smoky-black);
 }
 
@@ -196,7 +196,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--green);
+  color: var(--blue);
   /*track*/
   box-shadow: var(--shadow-1);
   z-index: 1;
@@ -805,8 +805,8 @@ main {
 }
 
 .timeline-list span {
-  color: var(--green);
-  /* track*/
+  color: var(--blue);
+  /* check*/
   
   font-weight: var(--fw-400);
   line-height: 1.6;
@@ -829,13 +829,15 @@ main {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: var(  --text-gradient-blue);
+  background: var(--blue);
+  /* check*/
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
 }
 
 .timeline-text {
   color: var(--light-gray);
+  /*check*/
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
