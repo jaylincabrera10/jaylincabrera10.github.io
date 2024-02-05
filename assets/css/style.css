@@ -149,7 +149,7 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--blue);
+  background: var();
   color: var(--smoky-black);
 }
 
@@ -804,7 +804,9 @@ main {
 }
 
 .timeline-list span {
-  color: var(--vegas-gold);
+  color: var(--blue);
+  /* track*/
+  
   font-weight: var(--fw-400);
   line-height: 1.6;
 }
