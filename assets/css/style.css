@@ -149,7 +149,7 @@ input, textarea {
 
 ::selection {
   background: var(blue);
-  color: var( --light-gray);
+  color: var(blue);
 }
 
 :focus { outline-color: var(--orange-yellow-crayola); }
@@ -194,7 +194,8 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(blue);
+  color: var(--orange-yellow-crayola);
+  /*track*/
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -239,6 +240,10 @@ article.active {
 .h5 {
   font-size: var(--fs-7);
   font-weight: var(--fw-500);
+}
+
+.h4.timeline-item-title .normal-text {
+  font-weight: normal;
 }
 
 .article-title {
@@ -1508,7 +1513,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .company-logo-img {
-    width: 30px; /* Adjust the width as needed */
+    width: 40px; /* Adjust the width as needed */
     height: auto;
 }
 
