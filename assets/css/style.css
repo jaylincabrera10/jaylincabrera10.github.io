@@ -1519,9 +1519,16 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .company-logo-img {
-    width: 40px; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
     height: auto;
 }
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .company-logo-img {
+      max-width: 60px; /* Adjust the width as needed for smaller screens */
+  }
+}
+
 
 
 
