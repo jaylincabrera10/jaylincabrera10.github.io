@@ -389,10 +389,10 @@ main {
 }
 
 .info_more-btn:hover,
-.info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
+.info_more-btn:focus { background: var(--blue); }
 
 .info_more-btn:hover::before,
-.info_more-btn:focus::before { background: var(--bg-gradient-yellow-2); }
+.info_more-btn:focus::before { background: var(--blue); }
 
 .info_more-btn span { display: none; }
 
@@ -1517,17 +1517,21 @@ textarea.form-input::-webkit-resizer { display: none; }
   .company-logo {
     display: inline-block;
     margin-right: 10px; /* Adjust spacing between logo and job details */
-    overflow: hidden;
-    border-radius: 12px;
-    transition: var(--transition-1);
 }
 
 .company-logo-img {
-    width: 100%; /* Adjust the width as needed */
+    width: 40px; /* Adjust the width as needed */
     height: auto;
-    object-fit: cover;
 }
 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .company-logo-img {
+        width: 30px; /* Adjust the width as needed for smaller screens */
+    }
+}
+
+/* trying mobile*/
 
 
 
