@@ -149,7 +149,7 @@ input, textarea {
 }
 
 ::selection {
-  background: var();
+  background: var(--blue);
   color: var(--smoky-black);
 }
 
@@ -195,7 +195,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--orange-yellow-crayola);
+  color: var(--blue);
   /*track*/
   box-shadow: var(--shadow-1);
   z-index: 1;
@@ -205,7 +205,7 @@ article {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--blue);
+  background: var(--eerie-black-1);
   border-radius: inherit;
   z-index: -1;
 }
@@ -368,7 +368,7 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--blue);
+  color: var( --white-1);
   background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
