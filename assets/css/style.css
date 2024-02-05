@@ -70,6 +70,7 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
   --blue: hsl(240, 100%, 50%);
+  --green: hsl(120, 100%, 50%);
 
   /**
    * typography
@@ -149,7 +150,7 @@ input, textarea {
 }
 
 ::selection {
-  background: var();
+  background: var(--bittersweet-shimmer);
   color: var(--smoky-black);
 }
 
@@ -195,7 +196,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--blue);
+  color: var(--green);
   /*track*/
   box-shadow: var(--shadow-1);
   z-index: 1;
@@ -804,7 +805,7 @@ main {
 }
 
 .timeline-list span {
-  color: var(--blue);
+  color: var(--green);
   /* track*/
   
   font-weight: var(--fw-400);
